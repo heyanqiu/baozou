@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+       home_activity2:主页折叠菜单的设置选项
+       orderInCategory：摆放的顺序，越小越放在前面
+   -->
+
+    <item
+        android:id="@+id/action_publish"
+        android:icon="@mipmap/btn_home_publish_nor"
+        android:title="编辑"
+        android:orderInCategory="80"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_notice"
+        android:icon="@mipmap/btn_home_notice_nor"
+        android:orderInCategory="90"
+        android:title="提醒"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="刷新"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_night"
+        android:orderInCategory="100"
+        android:title="夜间模式"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never" />
+
+</menu>
